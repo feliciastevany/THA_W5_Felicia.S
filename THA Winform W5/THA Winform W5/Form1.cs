@@ -147,11 +147,11 @@ namespace THA_Winform_W5
             dataTampil.Rows.Clear();
             comboBoxFilter.Enabled = false;
             dataGridViewProduct.DataSource = dataSimpan;
-            foreach (Product prod in produk)
+            /*foreach (Product prod in produk)
             {
                 IDProduct(prod);
                 dataSimpan.Rows.Add(prod.IDProduct, prod.Nama, prod.Harga, prod.Stock, prod.IDCat);
-            }
+            }*/
         }
         private void buttonAddCat_Click(object sender, EventArgs e)
         {
@@ -241,6 +241,7 @@ namespace THA_Winform_W5
             {
                 int select = dataGridViewProduct.CurrentCell.RowIndex;
                 string produkid = dataSimpan.Rows[select][0].ToString();
+                dataSimpan.Rows.Clear();
                 foreach (Product prod in produk)
                 {
                     if (produkid == prod.IDProduct)
@@ -248,6 +249,7 @@ namespace THA_Winform_W5
                         prod.Nama = textBoxNamaDetails.Text;
                         prod.Harga = textBoxHarga.Text;
                         prod.Stock = textBoxStock.Text;
+                        prod.IDCat = comboBoxCat.Text;
                         IDCategory(prod);
                         if (prod.IDProduct[0] != textBoxNamaDetails.Text[0])
                         {
@@ -260,7 +262,6 @@ namespace THA_Winform_W5
                         }
 
                     }
-
                 }
             }
             else
