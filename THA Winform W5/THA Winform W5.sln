@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THA Winform W5", "THA Winform W5\THA Winform W5.csproj", "{13356400-AEC4-4DCE-9A59-C695F11726D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13356400-AEC4-4DCE-9A59-C695F11726D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13356400-AEC4-4DCE-9A59-C695F11726D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13356400-AEC4-4DCE-9A59-C695F11726D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13356400-AEC4-4DCE-9A59-C695F11726D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61E33725-CFB3-495D-8AC3-8FF4D3B303CA}
+	EndGlobalSection
+EndGlobal
